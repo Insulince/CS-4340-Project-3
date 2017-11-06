@@ -1,134 +1,91 @@
 import java.util.ArrayList;
 
-//TODO: Consider removing the unnecesarry boxing of the array lists into their own objects. Without individual methods in these classes, I don't see the purpose.
-
 public class Project3 {
     public static void main(String[] args) throws ImproperlySizedLogisticRegressionDatumException {
-        final ArrayList<LogisticRegressionFeature<Integer>> logisticRegressionFeatures1_1 = new ArrayList<>();
+        final ArrayList<LogisticRegressionFeature<Integer>> logisticRegressionFeatures1 = new ArrayList<>();
         final LogisticRegressionFeature<Integer> logisticRegressionFeature1_1 = new LogisticRegressionFeature<>(1);
-        logisticRegressionFeatures1_1.add(logisticRegressionFeature1_1);
-        @SuppressWarnings("unchecked")
-        final LogisticRegressionFeatures<Integer> logisticRegressionFeatures1 = new LogisticRegressionFeatures(logisticRegressionFeatures1_1);
+        logisticRegressionFeatures1.add(logisticRegressionFeature1_1);
         final LogisticRegressionOutcome logisticRegressionOutcome1 = new LogisticRegressionOutcome(0);
-        final SingleFeatureLogisticRegressionDatum singleFeatureLogisticRegressionDatum1 = new SingleFeatureLogisticRegressionDatum(logisticRegressionFeatures1, logisticRegressionOutcome1);
+        final SingleFeatureLogisticRegressionDatum<Integer> singleFeatureLogisticRegressionDatum1 = new SingleFeatureLogisticRegressionDatum<>(logisticRegressionFeatures1, logisticRegressionOutcome1);
 
-        final ArrayList<LogisticRegressionFeature<Integer>> logisticRegressionFeatures2_1 = new ArrayList<>();
+        final ArrayList<LogisticRegressionFeature<Integer>> logisticRegressionFeatures2 = new ArrayList<>();
         final LogisticRegressionFeature<Integer> logisticRegressionFeature2_1 = new LogisticRegressionFeature<>(2);
-        logisticRegressionFeatures2_1.add(logisticRegressionFeature2_1);
-        @SuppressWarnings("unchecked")
-        final LogisticRegressionFeatures<Integer> logisticRegressionFeatures2 = new LogisticRegressionFeatures(logisticRegressionFeatures2_1);
+        logisticRegressionFeatures2.add(logisticRegressionFeature2_1);
         final LogisticRegressionOutcome logisticRegressionOutcome2 = new LogisticRegressionOutcome(1);
-        final SingleFeatureLogisticRegressionDatum singleFeatureLogisticRegressionDatum2 = new SingleFeatureLogisticRegressionDatum(logisticRegressionFeatures2, logisticRegressionOutcome2);
-        
-        final ArrayList<LogisticRegressionFeature<Integer>> logisticRegressionFeatures3_1 = new ArrayList<>();
+        final SingleFeatureLogisticRegressionDatum<Integer> singleFeatureLogisticRegressionDatum2 = new SingleFeatureLogisticRegressionDatum<>(logisticRegressionFeatures2, logisticRegressionOutcome2);
+
+        final ArrayList<LogisticRegressionFeature<Integer>> logisticRegressionFeatures3 = new ArrayList<>();
         final LogisticRegressionFeature<Integer> logisticRegressionFeature3_1 = new LogisticRegressionFeature<>(3);
-        logisticRegressionFeatures3_1.add(logisticRegressionFeature3_1);
-        @SuppressWarnings("unchecked")
-        final LogisticRegressionFeatures<Integer> logisticRegressionFeatures3 = new LogisticRegressionFeatures(logisticRegressionFeatures3_1);
+        logisticRegressionFeatures3.add(logisticRegressionFeature3_1);
         final LogisticRegressionOutcome logisticRegressionOutcome3 = new LogisticRegressionOutcome(0);
-        final SingleFeatureLogisticRegressionDatum singleFeatureLogisticRegressionDatum3 = new SingleFeatureLogisticRegressionDatum(logisticRegressionFeatures3, logisticRegressionOutcome3);
+        final SingleFeatureLogisticRegressionDatum<Integer> singleFeatureLogisticRegressionDatum3 = new SingleFeatureLogisticRegressionDatum<>(logisticRegressionFeatures3, logisticRegressionOutcome3);
 
-        final ArrayList<LogisticRegressionFeature<Integer>> logisticRegressionFeatures4_1 = new ArrayList<>();
+        final ArrayList<LogisticRegressionFeature<Integer>> logisticRegressionFeatures4 = new ArrayList<>();
         final LogisticRegressionFeature<Integer> logisticRegressionFeature4_1 = new LogisticRegressionFeature<>(4);
-        logisticRegressionFeatures4_1.add(logisticRegressionFeature4_1);
-        @SuppressWarnings("unchecked")
-        final LogisticRegressionFeatures<Integer> logisticRegressionFeatures4 = new LogisticRegressionFeatures(logisticRegressionFeatures4_1);
+        logisticRegressionFeatures4.add(logisticRegressionFeature4_1);
         final LogisticRegressionOutcome logisticRegressionOutcome4 = new LogisticRegressionOutcome(1);
-        final SingleFeatureLogisticRegressionDatum singleFeatureLogisticRegressionDatum4 = new SingleFeatureLogisticRegressionDatum(logisticRegressionFeatures4, logisticRegressionOutcome4);
+        final SingleFeatureLogisticRegressionDatum<Integer> singleFeatureLogisticRegressionDatum4 = new SingleFeatureLogisticRegressionDatum<>(logisticRegressionFeatures4, logisticRegressionOutcome4);
 
-        final ArrayList<LogisticRegressionFeature<Integer>> logisticRegressionFeatures5_1 = new ArrayList<>();
+        final ArrayList<LogisticRegressionFeature<Integer>> logisticRegressionFeatures5 = new ArrayList<>();
         final LogisticRegressionFeature<Integer> logisticRegressionFeature5_1 = new LogisticRegressionFeature<>(5);
-        logisticRegressionFeatures5_1.add(logisticRegressionFeature5_1);
-        @SuppressWarnings("unchecked")
-        final LogisticRegressionFeatures<Integer> logisticRegressionFeatures5 = new LogisticRegressionFeatures(logisticRegressionFeatures5_1);
+        logisticRegressionFeatures5.add(logisticRegressionFeature5_1);
         final LogisticRegressionOutcome logisticRegressionOutcome5 = new LogisticRegressionOutcome(0);
-        final SingleFeatureLogisticRegressionDatum singleFeatureLogisticRegressionDatum5 = new SingleFeatureLogisticRegressionDatum(logisticRegressionFeatures5, logisticRegressionOutcome5);
+        final SingleFeatureLogisticRegressionDatum<Integer> singleFeatureLogisticRegressionDatum5 = new SingleFeatureLogisticRegressionDatum<>(logisticRegressionFeatures5, logisticRegressionOutcome5);
 
-        final ArrayList<LogisticRegressionFeature<Integer>> logisticRegressionFeatures6_1 = new ArrayList<>();
+        final ArrayList<LogisticRegressionFeature<Integer>> logisticRegressionFeatures6 = new ArrayList<>();
         final LogisticRegressionFeature<Integer> logisticRegressionFeature6_1 = new LogisticRegressionFeature<>(6);
-        logisticRegressionFeatures6_1.add(logisticRegressionFeature6_1);
-        @SuppressWarnings("unchecked")
-        final LogisticRegressionFeatures<Integer> logisticRegressionFeatures6 = new LogisticRegressionFeatures(logisticRegressionFeatures6_1);
+        logisticRegressionFeatures6.add(logisticRegressionFeature6_1);
         final LogisticRegressionOutcome logisticRegressionOutcome6 = new LogisticRegressionOutcome(1);
-        final SingleFeatureLogisticRegressionDatum singleFeatureLogisticRegressionDatum6 = new SingleFeatureLogisticRegressionDatum(logisticRegressionFeatures6, logisticRegressionOutcome6);
-        
-        final ArrayList<LogisticRegressionFeature<Integer>> logisticRegressionFeatures7_1 = new ArrayList<>();
+        final SingleFeatureLogisticRegressionDatum<Integer> singleFeatureLogisticRegressionDatum6 = new SingleFeatureLogisticRegressionDatum<>(logisticRegressionFeatures6, logisticRegressionOutcome6);
+
+        final ArrayList<LogisticRegressionFeature<Integer>> logisticRegressionFeatures7 = new ArrayList<>();
         final LogisticRegressionFeature<Integer> logisticRegressionFeature7_1 = new LogisticRegressionFeature<>(7);
-        logisticRegressionFeatures7_1.add(logisticRegressionFeature7_1);
-        @SuppressWarnings("unchecked")
-        final LogisticRegressionFeatures<Integer> logisticRegressionFeatures7 = new LogisticRegressionFeatures(logisticRegressionFeatures7_1);
+        logisticRegressionFeatures7.add(logisticRegressionFeature7_1);
         final LogisticRegressionOutcome logisticRegressionOutcome7 = new LogisticRegressionOutcome(1);
-        final SingleFeatureLogisticRegressionDatum singleFeatureLogisticRegressionDatum7 = new SingleFeatureLogisticRegressionDatum(logisticRegressionFeatures7, logisticRegressionOutcome7);
+        final SingleFeatureLogisticRegressionDatum<Integer> singleFeatureLogisticRegressionDatum7 = new SingleFeatureLogisticRegressionDatum<>(logisticRegressionFeatures7, logisticRegressionOutcome7);
 
-        final ArrayList<LogisticRegressionFeature<Integer>> logisticRegressionFeatures8_1 = new ArrayList<>();
+        final ArrayList<LogisticRegressionFeature<Integer>> logisticRegressionFeatures8 = new ArrayList<>();
         final LogisticRegressionFeature<Integer> logisticRegressionFeature8_1 = new LogisticRegressionFeature<>(8);
-        logisticRegressionFeatures8_1.add(logisticRegressionFeature8_1);
-        @SuppressWarnings("unchecked")
-        final LogisticRegressionFeatures<Integer> logisticRegressionFeatures8 = new LogisticRegressionFeatures(logisticRegressionFeatures8_1);
+        logisticRegressionFeatures8.add(logisticRegressionFeature8_1);
         final LogisticRegressionOutcome logisticRegressionOutcome8 = new LogisticRegressionOutcome(1);
-        final SingleFeatureLogisticRegressionDatum singleFeatureLogisticRegressionDatum8 = new SingleFeatureLogisticRegressionDatum(logisticRegressionFeatures8, logisticRegressionOutcome8);
+        final SingleFeatureLogisticRegressionDatum<Integer> singleFeatureLogisticRegressionDatum8 = new SingleFeatureLogisticRegressionDatum<>(logisticRegressionFeatures8, logisticRegressionOutcome8);
 
-        ArrayList<LogisticRegressionDatum> logisticRegressionData = new ArrayList<>();
-        logisticRegressionData.add(singleFeatureLogisticRegressionDatum1);
-        logisticRegressionData.add(singleFeatureLogisticRegressionDatum2);
-        logisticRegressionData.add(singleFeatureLogisticRegressionDatum3);
-        logisticRegressionData.add(singleFeatureLogisticRegressionDatum4);
-        logisticRegressionData.add(singleFeatureLogisticRegressionDatum5);
-        logisticRegressionData.add(singleFeatureLogisticRegressionDatum6);
-        logisticRegressionData.add(singleFeatureLogisticRegressionDatum7);
-        logisticRegressionData.add(singleFeatureLogisticRegressionDatum8);
+        ArrayList<SingleFeatureLogisticRegressionDatum<Integer>> singleFeatureLogisticRegressionData = new ArrayList<>();
+        singleFeatureLogisticRegressionData.add(singleFeatureLogisticRegressionDatum1);
+        singleFeatureLogisticRegressionData.add(singleFeatureLogisticRegressionDatum2);
+        singleFeatureLogisticRegressionData.add(singleFeatureLogisticRegressionDatum3);
+        singleFeatureLogisticRegressionData.add(singleFeatureLogisticRegressionDatum4);
+        singleFeatureLogisticRegressionData.add(singleFeatureLogisticRegressionDatum5);
+        singleFeatureLogisticRegressionData.add(singleFeatureLogisticRegressionDatum6);
+        singleFeatureLogisticRegressionData.add(singleFeatureLogisticRegressionDatum7);
+        singleFeatureLogisticRegressionData.add(singleFeatureLogisticRegressionDatum8);
 
-        SingleFeatureLogisticRegressionDataSet singleFeatureLogisticRegressionDataSet = new SingleFeatureLogisticRegressionDataSet(logisticRegressionData);
+        SingleFeatureLogisticRegression<Integer> singleFeatureLogisticRegression = new SingleFeatureLogisticRegression<>(singleFeatureLogisticRegressionData);
 
-        SingleFeatureLogisticRegression singleFeatureLogisticRegression = new SingleFeatureLogisticRegression(singleFeatureLogisticRegressionDataSet);
-        
         System.out.println(singleFeatureLogisticRegression.toString());
     }
 }
 
-abstract class LogisticRegression {
-    private final LogisticRegressionDataSet logisticRegressionDataSet;
+abstract class LogisticRegression<T> {
+    private final ArrayList<LogisticRegressionDatum<T>> logisticRegressionData;
 
-    LogisticRegression(final LogisticRegressionDataSet logisticRegressionDataSet) {
-        this.logisticRegressionDataSet = logisticRegressionDataSet;
-    }
-
-    public LogisticRegressionDataSet getLogisticRegressionDataSet() {
-        return logisticRegressionDataSet;
-    }
-
-    @Override()
-    public String toString() {
-        return "{\"logisticRegressionDataSet\": " + this.logisticRegressionDataSet.toString() + "}";
-    }
-}
-
-class SingleFeatureLogisticRegression extends LogisticRegression {
-    SingleFeatureLogisticRegression(final SingleFeatureLogisticRegressionDataSet singleFeatureLogisticRegressionDataSet) {
-        super(singleFeatureLogisticRegressionDataSet);
-    }
-}
-
-abstract class LogisticRegressionDataSet {
-    private final ArrayList<LogisticRegressionDatum> logisticRegressionData;
-
-    LogisticRegressionDataSet(final ArrayList<LogisticRegressionDatum> logisticRegressionData) {
+    LogisticRegression(final ArrayList<LogisticRegressionDatum<T>> logisticRegressionData) {
         this.logisticRegressionData = logisticRegressionData;
     }
 
-    public ArrayList<LogisticRegressionDatum> getLogisticRegressionData() {
-        return logisticRegressionData;
+    public ArrayList<LogisticRegressionDatum<T>> getLogisticRegressionData() {
+        return this.logisticRegressionData;
     }
 
     @Override()
     public String toString() {
-        return "{\"logisticRegressionData\": " + this.getLogisticRegressionData().toString() + "}";
+        return "{\"logisticRegressionData\": " + this.logisticRegressionData.toString() + "}";
     }
 }
 
-class SingleFeatureLogisticRegressionDataSet extends LogisticRegressionDataSet {
-    SingleFeatureLogisticRegressionDataSet(final ArrayList<LogisticRegressionDatum> logisticRegressionData) {
-        super(logisticRegressionData);
+class SingleFeatureLogisticRegression<T> extends LogisticRegression {
+    SingleFeatureLogisticRegression(final ArrayList<SingleFeatureLogisticRegressionDatum<T>> singleFeatureLogisticRegressionData) {
+        super(singleFeatureLogisticRegressionData);
     }
 }
 
@@ -138,21 +95,21 @@ interface VaryingQuantityFeatures {
     boolean containsAnticipatedQuantityFeatures();
 }
 
-abstract class LogisticRegressionDatum implements VaryingQuantityFeatures {
-    private final LogisticRegressionFeatures logisticRegressionFeatures;
+abstract class LogisticRegressionDatum<T> implements VaryingQuantityFeatures {
+    private final ArrayList<LogisticRegressionFeature<T>> logisticRegressionFeatures;
     private final LogisticRegressionOutcome logisticRegressionOutcome;
 
-    LogisticRegressionDatum(final LogisticRegressionFeatures logisticRegressionFeatures, final LogisticRegressionOutcome logisticRegressionOutcome) {
+    LogisticRegressionDatum(final ArrayList<LogisticRegressionFeature<T>> logisticRegressionFeatures, final LogisticRegressionOutcome logisticRegressionOutcome) {
         this.logisticRegressionFeatures = logisticRegressionFeatures;
         this.logisticRegressionOutcome = logisticRegressionOutcome;
     }
 
-    public LogisticRegressionFeatures getLogisticRegressionFeatures() {
-        return logisticRegressionFeatures;
+    public ArrayList<LogisticRegressionFeature<T>> getLogisticRegressionFeatures() {
+        return this.logisticRegressionFeatures;
     }
 
     public LogisticRegressionOutcome getLogisticRegressionOutcome() {
-        return logisticRegressionOutcome;
+        return this.logisticRegressionOutcome;
     }
 
     @Override()
@@ -161,10 +118,10 @@ abstract class LogisticRegressionDatum implements VaryingQuantityFeatures {
     }
 }
 
-class SingleFeatureLogisticRegressionDatum extends LogisticRegressionDatum {
+class SingleFeatureLogisticRegressionDatum<T> extends LogisticRegressionDatum implements VaryingQuantityFeatures {
     private static final Integer ANTICIPATED_QUANTITY_FEATURES = 1;
 
-    SingleFeatureLogisticRegressionDatum(final LogisticRegressionFeatures logisticRegressionFeatures, final LogisticRegressionOutcome logisticRegressionOutcome) throws ImproperlySizedLogisticRegressionDatumException {
+    SingleFeatureLogisticRegressionDatum(final ArrayList<LogisticRegressionFeature<T>> logisticRegressionFeatures, final LogisticRegressionOutcome logisticRegressionOutcome) throws ImproperlySizedLogisticRegressionDatumException {
         super(logisticRegressionFeatures, logisticRegressionOutcome);
 
         if (!this.containsAnticipatedQuantityFeatures()) {
@@ -179,36 +136,13 @@ class SingleFeatureLogisticRegressionDatum extends LogisticRegressionDatum {
 
     @Override()
     public boolean containsAnticipatedQuantityFeatures() {
-        return this.getLogisticRegressionFeatures().getQuantityFeatures().equals(SingleFeatureLogisticRegressionDatum.ANTICIPATED_QUANTITY_FEATURES);
+        return this.getLogisticRegressionFeatures().size() == SingleFeatureLogisticRegressionDatum.ANTICIPATED_QUANTITY_FEATURES;
     }
 }
 
 class ImproperlySizedLogisticRegressionDatumException extends Exception {
     ImproperlySizedLogisticRegressionDatumException(final LogisticRegressionDatum logisticRegressionDatum) {
-        super("Improperly sized LogisticRegressionDatum. Expected size \"" + logisticRegressionDatum.getAnticipatedQuantityFeatures() + "\", encountered size: \"" + logisticRegressionDatum.getLogisticRegressionFeatures().getLogisticRegressionFeatures().size() + "\", for LogisticRegressionDatum with data \"" + logisticRegressionDatum.toString() + "\".");
-    }
-}
-
-class LogisticRegressionFeatures<T> {
-    private final ArrayList<LogisticRegressionFeature<T>> logisticRegressionFeatures;
-    private final Integer quantityFeatures;
-
-    LogisticRegressionFeatures(final ArrayList<LogisticRegressionFeature<T>> logisticRegressionFeatures) {
-        this.logisticRegressionFeatures = logisticRegressionFeatures;
-        this.quantityFeatures = this.logisticRegressionFeatures.size();
-    }
-
-    public ArrayList<LogisticRegressionFeature<T>> getLogisticRegressionFeatures() {
-        return logisticRegressionFeatures;
-    }
-
-    public Integer getQuantityFeatures() {
-        return quantityFeatures;
-    }
-
-    @Override()
-    public String toString() {
-        return "{\"logisticRegressionFeatures\": " + this.getLogisticRegressionFeatures().toString() + ", \"quantityFeatures\": " + this.getQuantityFeatures() + "}";
+        super("Improperly sized LogisticRegressionDatum. Expected size \"" + logisticRegressionDatum.getAnticipatedQuantityFeatures() + "\", encountered size: \"" + logisticRegressionDatum.getLogisticRegressionFeatures().size() + "\", for LogisticRegressionDatum with data \"" + logisticRegressionDatum.toString() + "\".");
     }
 }
 
